@@ -7,6 +7,12 @@
 */
 
 //CODE HERE
+let lovesCode = true;
+if (lovesCode === true) {
+  console.log("i love to code")
+} else {
+  console.log("Coding has it's challenges")
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -21,7 +27,13 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
-
+if (amysAge > brittanisAge) {
+  console.log('Amy is Older')
+} else if (amysAge < brittanisAge) {
+  console.log('Britt is Older')
+} else {
+  console.log('they are the same')
+}
 ////////// PROBLEM 3 //////////
 
 /*
@@ -29,10 +41,14 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
-
+if (amysBirthYear === brittanisBirthYear) {
+  console.log('they are born in the same year')
+} else {
+  console.log('Brittany and Amy are not born in the same year');
+}
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
+let temperature = 80;
 let rain = true;
 
 /*
@@ -41,7 +57,13 @@ let rain = true;
 */
 
 //CODE HERE
-
+if (temperature > 80 && rain ) {
+  console.log('wear a t-shirt and take an umberella')
+} else if (temperature >= 60 && temperature <= 80 && rain) {
+  console.log('wear a rain jacket')
+} else {
+  console.log('wear a jacket and carry an umbrella!')
+}
 ////////// PROBLEM 5 //////////
 
 /*
@@ -102,3 +124,9 @@ let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+while (z > 0) {
+  for (let i = z; i > 0; i--) {
+    console.log(i)
+  }
+  z = z - 1;
+}
