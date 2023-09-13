@@ -71,7 +71,9 @@ if (temperature > 80 && rain ) {
 */
 
 //CODE HERE
-
+for (i = 1; i <= 10; i = i + 1) {
+  console.log('hello')
+}
 ////////// PROBLEM 6 //////////
 
 /*
@@ -79,7 +81,9 @@ if (temperature > 80 && rain ) {
 */
 
 //CODE HERE
-
+for (i = 1; i <= 10; i = i + 1) {
+  console.log(i)
+}
 ////////// PROBLEM 7 //////////
 
 /*
@@ -87,7 +91,9 @@ if (temperature > 80 && rain ) {
 */
 
 //CODE HERE
-
+for (i = 10; i >= 0; i = i - 1 ) {
+  console.log(i);
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -99,7 +105,10 @@ let passingScore = 7;
 */
 
 //CODE HERE
-
+while (score < passingScore) {
+  console.log('your score is not high enough')
+  score = score + 1;
+}
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -110,7 +119,13 @@ let passingScore = 7;
 */
 
 //CODE HERE
-
+let changeMyMind = false;
+if (changeMyMind = true) {
+  console.log(changeMyMind)
+} else {
+  changeMyMind = true;
+  console.log(changeMyMind);
+};
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
@@ -125,7 +140,7 @@ let z = 5;
 
 //CODE HERE
 while (z > 0) {
-  for (let i = z; i > 0; i--) {
+  for (let i = z; i > 0; i = i - 1) {
     console.log(i)
   }
   z = z - 1;
